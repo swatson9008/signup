@@ -1,0 +1,8 @@
+@font-face {
+    font-family: customFonts;
+    src: url(Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+.type {
+    font-family: customFonts;
+}
