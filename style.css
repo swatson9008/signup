@@ -101,7 +101,22 @@ fieldset {
     row-gap: 1rem;
 }
 
+label {
+    color:darkslategray;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 h2 {
     margin-left: 5%;
 }
 
+#accountCreate {
+    margin-left: 5%;
+    margin-top: 2%;;
+}
+
+#login {
+    margin-left: 5%;
+    margin-top: 2%;
+}
