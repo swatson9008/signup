@@ -136,11 +136,19 @@ input {
 
 input:focus {
     border: lightskyblue 2px solid;
+    box-shadow: 1px 2px 2px rgb(158, 156, 156);
+}
+
+input:not(:placeholder-shown):invalid{
+    border: red 2px solid;
 }
 
 input[type="submit"]{
-    border: black 2px solid;
+    border: rgb(47, 136, 121);
+    color: aliceblue;
+    border-radius: 1rem;
+    background-color: rgb(47, 136, 121);
     font-size: 1.5rem;
     width: 15%;
-    height: auto;
+    padding: 1%;
 }
