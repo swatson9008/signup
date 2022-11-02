@@ -91,11 +91,12 @@ fieldset {
     display: flex;
     position: relative;
     margin-left: 5%;
-    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-direction: row;
     align-self: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-start;*/
     border: red 2px solid;
-    width: 50%;
+    width: 40%;
     column-gap: 0.5rem;
 }
 
