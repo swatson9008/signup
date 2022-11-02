@@ -85,8 +85,11 @@
     background-color: rgb(214, 214, 214);
 }
 
-form {
+
+
+fieldset {
     display: flex;
+    position: relative;
     margin-left: 5%;
     flex-direction: row;
     align-self: flex-end;
@@ -94,9 +97,6 @@ form {
     border: red 2px solid;
     width: 50%;
     column-gap: 0.5rem;
-    
-    
-    
 }
 
 h2 {
