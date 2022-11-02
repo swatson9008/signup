@@ -7,6 +7,13 @@
     font-family: customFonts;
 }
 
+
+*,
+*:focus,
+*:hover {
+    outline: none;
+}
+
 #maincontainer {
     display:flex;
 }
@@ -104,6 +111,7 @@ fieldset {
 label {
     color:darkslategray;
     font-size: 1.2rem;
+    font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -119,4 +127,20 @@ h2 {
 #login {
     margin-left: 5%;
     margin-top: 2%;
+    font-size: 1.2rem;
+}
+
+input {
+    border: rgb(196, 196, 196) 2px solid;
+}
+
+input:focus {
+    border: lightskyblue 2px solid;
+}
+
+input[type="submit"]{
+    border: black 2px solid;
+    font-size: 1.5rem;
+    width: 15%;
+    height: auto;
 }
