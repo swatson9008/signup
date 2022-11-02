@@ -62,11 +62,11 @@
     position: absolute;
     display: flex;
     font-family: customFonts;
-    bottom: 0.5em;
+    bottom: 0.2em;
     color:white;
     background: rgba(0, 0, 0, 0.6);
     padding: 5px;
-    left: 30%;
+    left: 35%;
     
 }
 
@@ -85,6 +85,21 @@
     background-color: rgb(214, 214, 214);
 }
 
-#formS {
-    padding: 5%
+form {
+    display: flex;
+    margin-left: 5%;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: flex-start;
+    border: red 2px solid;
+    width: 50%;
+    column-gap: 0.5rem;
+    
+    
+    
 }
+
+h2 {
+    margin-left: 5%;
+}
+
