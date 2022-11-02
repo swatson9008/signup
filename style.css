@@ -95,9 +95,10 @@ fieldset {
     /*flex-direction: row;
     align-self: flex-end;
     justify-content: flex-start;*/
-    border: red 2px solid;
+    /*border: red 2px solid;*/
     width: 40%;
-    column-gap: 0.5rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
 }
 
 h2 {
